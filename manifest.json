@@ -1,0 +1,17 @@
+{
+    "name": "DisappearingTweetRevertExtensions",
+    "description": "消えるツイートバグをもとに戻す",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "html/popup.html"
+    },
+    "content_scripts": [{
+        "matches": [
+            "https://twitter.com/home"
+        ],
+        "js": [
+            "js/main.js"
+        ]
+    }]
+}

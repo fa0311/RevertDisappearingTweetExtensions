@@ -1,0 +1,1 @@
+setInterval(() => (document.querySelector('div[aria-label="タイムライン: ホームタイムライン"]>div>div>div>div[role=button]') || {click: () => {}}).click(), 500)
